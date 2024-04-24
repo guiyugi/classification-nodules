@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles/style-login.css">
+</head>
+<body class="fade-in">
+    <form id="login-form" class="main-login"> 
+        <div class="left-login">
+            <h1>Faça seu login<br>E acesse o sistema especialista!</h1>
+            <img src="./images/medical-prescription-animate.svg" class="left-login-image" alt="logo">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <div class="textfield">
+                    <label for="username">Usuário</label>
+                    <input type="text" id="username" name="username" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Senha">
+                </div>
+                <button type="submit" id="login-button" class="btn-login">Login</button> 
+                <p id="error-message" class="error-message"></p>
+            </div>
+        </div>
+    </form>
+
+    <script src="./scripts/script-login.js"></script>
+</body>
+</html>
